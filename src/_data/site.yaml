@@ -17,7 +17,7 @@ links:
   - {label: "X", url: "https://x.com/raffasadun"}
 
 themes:
-  - {key: ai, name: "Technology, AI and work", blurb: "How new technologies, from IT to generative AI, change the organization of work, and whether training helps workers keep up."}
+  - {key: ai, name: "Technology and work", blurb: "How new technologies, from IT to generative AI, change the organization of work, and whether training helps workers keep up."}
   - {key: mgmt, name: "Management practices and productivity", blurb: "Why some organizations are much better managed than others, and what it means for productivity across firms and countries."}
   - {key: leaders, name: "Leaders and managers", blurb: "What CEOs and managers actually do with their time and attention, and how it shapes their organizations."}
   - {key: public, name: "Health care and the public sector", blurb: "Management in hospitals, schools and government."}
