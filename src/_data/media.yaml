@@ -5,6 +5,13 @@
   title: Survey of young researchers raises concerns over future of science in U.S.
   url: https://news.harvard.edu/gazette/story/2026/09/survey-of-young-researchers-raises-concerns-over-future-of-science-in-u-s/
   lang: en
+- date: 2026-09
+  group: Press
+  kind: press
+  outlet: Financial Times · Anjana Ahuja
+  title: The next generation of American scientists is fading away
+  url: https://www.ft.com/content/848b9daf-6fc0-436d-8d9e-45e7bcab9676
+  lang: en
 - date: '2026-08-13'
   group: Press
   kind: citation
@@ -46,13 +53,6 @@
   outlet: World Bank
   title: 'Making AI Work: What Firms and Workers Need (keynote: Management and Reskilling in the Age of AI)'
   url: https://www.worldbank.org/en/events/2026/01/26/making-ai-work-what-firms-and-workers-need
-  lang: en
-- date: '2026'
-  group: Press
-  kind: press
-  outlet: Financial Times · Anjana Ahuja
-  title: The next generation of American scientists is fading away
-  url: https://www.ft.com/content/848b9daf-6fc0-436d-8d9e-45e7bcab9676
   lang: en
 - date: '2025-12-15'
   group: Talks
