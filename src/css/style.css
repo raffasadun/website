@@ -29,8 +29,14 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.15; mar
 .home-rule { width: 56px; height: 2px; background: var(--red); margin: 32px 0 28px; }
 .home-statement { font-family: var(--serif); font-style: italic; font-size: clamp(19px, 1.6vw, 22px); line-height: 1.5; color: var(--ink-soft); max-width: 34em; margin: 0 0 32px; }
 .home-nav { display: flex; flex-direction: column; gap: 6px; }
-.home-nav a { font-family: var(--serif); font-size: clamp(30px, 2.8vw, 40px); line-height: 1.25; color: var(--ink); }
-.home-nav a:hover { color: var(--red); text-decoration: none; }
+.home-nav a { position: relative; display: inline-flex; align-items: baseline; gap: 14px; align-self: flex-start; font-family: var(--serif); font-size: clamp(30px, 2.8vw, 40px); line-height: 1.25; color: var(--ink); padding: 2px 0; transition: color 0.2s ease; }
+.home-nav a::after { content: "\2192"; font-family: var(--sans); font-size: 0.7em; color: var(--red); opacity: 0.6; transform: translateX(0); transition: opacity 0.2s ease, transform 0.2s ease; }
+.home-nav a::before { content: ""; position: absolute; left: 0; bottom: 0; height: 2px; width: 0; background: var(--red); transition: width 0.25s ease; }
+.home-nav a:hover, .home-nav a:focus-visible { color: var(--red); text-decoration: none; }
+.home-nav a:hover::after, .home-nav a:focus-visible::after { opacity: 1; transform: translateX(8px); }
+.home-nav a:hover::before, .home-nav a:focus-visible::before { width: 100%; }
+.home-nav a:focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { .home-nav a, .home-nav a::after, .home-nav a::before { transition: none; } }
 .home-foot { margin-top: auto; padding-top: 40px; display: flex; flex-direction: column; gap: 8px; }
 .smallcaps { font-size: 14px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); }
 .smallcaps.red { color: var(--red); }
