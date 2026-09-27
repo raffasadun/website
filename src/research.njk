@@ -20,13 +20,12 @@ permalink: /research/
     <ul class="entries">
       {% for p in list %}
       <li class="entry">
-        <a class="entry-title" href="{{ p | mainLink }}">{{ p.title }}</a>
+        {% set href = p | mainLink %}
+        {% if href %}<a class="entry-title" href="{{ href }}">{{ p.title }}</a>{% else %}<span class="entry-title">{{ p.title }}</span>{% endif %}
         <div class="entry-meta">{% if p.authors %}with {{ p.authors }} · {% endif %}<em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}</div>
-        {% if p.links %}<div class="entry-links">
-          {% if p.links.pdf %}<a href="{{ p.links.pdf }}">PDF</a>{% endif %}
+        {% if p.links and (p.links.journal or p.links.free) %}<div class="entry-links">
           {% if p.links.journal %}<a href="{{ p.links.journal }}">Journal</a>{% endif %}
-          {% if p.links.nber %}<a href="{{ p.links.nber }}">NBER</a>{% endif %}
-          {% if p.links.data %}<a href="{{ p.links.data }}">Data</a>{% endif %}
+          {% if p.links.free %}<a href="{{ p.links.free }}">{{ p.links.free | freeLabel }}</a>{% endif %}
         </div>{% endif %}
       </li>
       {% endfor %}

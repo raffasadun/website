@@ -18,8 +18,17 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addFilter("mainLink", (p) => {
     const l = p.links || {};
-    return l.pdf || l.journal || l.nber || l.ssrn ||
-      `https://scholar.google.com/scholar?q=${encodeURIComponent('"' + p.title + '"')}`;
+    return l.free || l.journal || "";
+  });
+  eleventyConfig.addFilter("freeLabel", (url) => {
+    if (!url) return "";
+    if (url.includes("nber.org/papers")) return "NBER";
+    if (url.includes("hbs.edu/faculty")) return "HBS";
+    if (url.includes("ssrn.com")) return "SSRN";
+    if (url.includes("cepr.org")) return "CEPR";
+    if (url.includes("cep.lse.ac.uk")) return "CEP";
+    if (url.includes("iza.org")) return "IZA";
+    return "Free PDF";
   });
   eleventyConfig.addFilter("year", () => new Date().getFullYear());
 
