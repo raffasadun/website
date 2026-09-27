@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Projects & Data
+permalink: /projects/
+---
+<h1 class="page-title">Projects &amp; Data</h1>
+<p class="lead">Large-scale efforts to measure how organizations are managed, and to test what works in the field.</p>
+
+<section class="howwework">
+  <h2>How we work</h2>
+  <p>{{ site.how_we_work }}</p>
+</section>
+
+<div class="cards">
+  {% for pr in site.projects %}
+  <article class="card">
+    <div class="smallcaps red">{{ pr.label }}</div>
+    <h2>{{ pr.name }}</h2>
+    <p>{{ pr.text }}</p>
+    <a class="more" href="{{ pr.url }}">{{ pr.linktext }}</a>
+  </article>
+  {% endfor %}
+</div>
+
+<section class="section">
+  <div class="section-head"><h2>Research support</h2></div>
+  <p class="section-blurb">This work has been supported by:</p>
+  <ul class="funders">{% for f in site.funders %}<li>{{ f }}</li>{% endfor %}</ul>
+</section>

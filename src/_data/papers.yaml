@@ -1,0 +1,326 @@
+# Research list. Add a paper by copying one entry. theme: mgmt | leaders | ai | public
+# status: working | published | chapter. links: add pdf / journal / nber / data when available.
+
+- title: "Before the Exodus? Young Scientists and the Future of US Science"
+  authors: "Pierre Azoulay and Daniela Scur"
+  venue: "NBER Working Paper 35330"
+  year: 2026
+  status: working
+  theme: mgmt
+  links: {nber: "https://www.nber.org/papers/w35330"}
+
+- title: "Management and Firm Dynamism"
+  authors: "Nicholas Bloom, Jonathan S. Hartley, Rachel Schuh and John Van Reenen"
+  venue: "NBER Working Paper 33765"
+  year: 2025
+  status: working
+  theme: mgmt
+  links: {nber: "https://www.nber.org/papers/w33765"}
+
+- title: "CEO-Firm Matches and Productivity in 42 Countries"
+  authors: "Amanda Dahlstrand, David Laszlo, Helena Schweiger, Oriana Bandiera and Andrea Prat"
+  venue: "NBER Working Paper 33324"
+  year: 2025
+  status: working
+  theme: leaders
+  links: {nber: "https://www.nber.org/papers/w33324"}
+
+- title: "The Demand for Executive Skills"
+  authors: "Stephen Hansen, Tejas Ramdas and Joseph Fuller"
+  venue: "NBER Working Paper 28959"
+  year: 2021
+  status: working
+  theme: leaders
+  links: {nber: "https://www.nber.org/papers/w28959"}
+
+- title: "Re-organizing Work inside the Firm: Task Change after Technology Adoption"
+  authors: "Eleonora Brandimarti, Virginia Minni, Paula Neira and Jorge Tamayo"
+  venue: "Working paper"
+  year: null
+  status: working
+  theme: ai
+
+- title: "Unwilling to Reskill? Experimental Evidence from Real-World Jobseekers"
+  authors: "Alexia Delfino, Andrea Garnero, Sergio Inferrera and Marco Leonardi"
+  venue: "CEPR Discussion Paper 21055"
+  year: 2026
+  status: working
+  theme: ai
+
+- title: "Training within Firms"
+  authors: "Brayan Diaz, Andrea Neyra-Nazarrett, Julian Ramirez and Jorge Tamayo"
+  venue: "NBER Working Paper 33670"
+  year: 2025
+  status: working
+  theme: ai
+  links: {nber: "https://www.nber.org/papers/w33670"}
+
+- title: "Remote Work across Jobs, Companies, and Space"
+  authors: "Stephen Hansen, Peter John Lambert, Nicholas Bloom, Steven J. Davis and Bledi Taska"
+  venue: "NBER Working Paper 31007"
+  year: 2023
+  status: working
+  theme: ai
+  links: {nber: "https://www.nber.org/papers/w31007"}
+
+- title: "Variation in Management Practices and Quality of Care in U.S. Acute Care Hospitals"
+  authors: "Laura Katsnelson, Savita Sathya, Edward Watkins, Alice Zawacki and Thomas C. Tsai"
+  venue: "Working paper"
+  year: null
+  status: working
+  theme: public
+
+# ---------- Published
+
+- title: "The New Digital Divide"
+  authors: "Mayana Pereira, Shane Greenstein, Prasanna Tambe, Lucia Ronchi Darre, Tammy Glazer, Allen Kim, Rahul Dodhia and Juan Lavista Ferres"
+  venue: "Nature Communications, forthcoming"
+  year: 2026
+  status: published
+  theme: ai
+  links: {nber: "https://www.nber.org/papers/w32932"}
+
+- title: "The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise"
+  authors: "Fabrizio Dell’Acqua, Charles Ayoubi, Hila Lifshitz, Ethan Mollick, Lilach Mollick, Yi Han, Jeff Goldman, Hari Nair, Stew Taub and Karim R. Lakhani"
+  venue: "Organization Science"
+  year: 2026
+  status: published
+  theme: ai
+
+- title: "How Do Chief Executive Officers Make Strategy?"
+  authors: "Mu-Jeung Yang, Michael Christensen, Nicholas Bloom and Jan Rivkin"
+  venue: "Management Science 72(6)"
+  year: 2026
+  status: published
+  theme: leaders
+
+- title: "The Impact of CEOs in the Public Sector: Evidence from the English NHS"
+  authors: "Katharina Janke and Carol Propper"
+  venue: "Management Science, forthcoming"
+  year: 2026
+  status: published
+  theme: public
+
+- title: "The Anatomy of a Hospital System Merger: The Patient Did Not Respond Well to Treatment"
+  authors: "Martin Gaynor, Adam Sacarny, Chad Syverson and Shruthi Venkatesh"
+  venue: "Review of Economics and Statistics 108(1)"
+  year: 2026
+  status: published
+  theme: public
+
+- title: "Communication within Firms: Evidence from CEO Turnovers"
+  authors: "Stephen Michael Impink and Andrea Prat"
+  venue: "Management Science 71(1)"
+  year: 2025
+  status: published
+  theme: leaders
+
+- title: "The International Empirics of Management"
+  authors: "Daniela Scur, Scott Ohlmacher, John Van Reenen, Morten Bennedsen, Nicholas Bloom and coauthors"
+  venue: "Proceedings of the National Academy of Sciences 121(45)"
+  year: 2024
+  status: published
+  theme: mgmt
+
+- title: "Come Together: Firm Boundaries and Delegation"
+  authors: "Laura Alfaro, Nicholas Bloom, Paola Conconi, Harald Fadinger, Patrick Legros, Andy Newman and John Van Reenen"
+  venue: "Journal of the European Economic Association 22(1)"
+  year: 2024
+  status: published
+  theme: mgmt
+
+- title: "The World Management Survey at 18: Lessons and the Way Forward"
+  authors: "Daniela Scur, John Van Reenen, Renata Lemos and Nicholas Bloom"
+  venue: "Oxford Review of Economic Policy 37(2)"
+  year: 2021
+  status: published
+  theme: mgmt
+
+- title: "Turbulence, Firm Decentralization and Growth in Bad Times"
+  authors: "Philippe Aghion, Nicholas Bloom, Brian Lucking and John Van Reenen"
+  venue: "American Economic Journal: Applied Economics 13(1)"
+  year: 2021
+  status: published
+  theme: mgmt
+
+- title: "How Does Working from Home during COVID-19 Affect What Managers Do? Evidence from Time-Use Studies"
+  authors: "Thomaz Teodorovicz, Andrew Kun and Orit Shaer"
+  venue: "Human-Computer Interaction 37(6)"
+  year: 2022
+  status: published
+  theme: leaders
+
+- title: "The Impact of COVID-19 on Digital Communication Patterns"
+  authors: "Evan DeFilippis, Stephen Michael Impink, Madison Singell and Jeffrey T. Polzer"
+  venue: "Humanities and Social Sciences Communications 9"
+  year: 2022
+  status: published
+  theme: ai
+
+- title: "Multitasking while Driving: A Time Use Study of Commuting Knowledge Workers to Assess Current and Future Uses"
+  authors: "Thomaz Teodorovicz, Andrew Kun and Orit Shaer"
+  venue: "International Journal of Human-Computer Studies 162"
+  year: 2022
+  status: published
+  theme: ai
+
+- title: "Perceptions Related to Engaging in Non-Driving Activities in an Automated Vehicle while Commuting: A Text Mining Approach"
+  authors: "Yilun Xing, Linda Ng Boyle, John D. Lee, Orit Shaer and Andrew Kun"
+  venue: "Transportation Research Part F 94"
+  year: 2023
+  status: published
+  theme: ai
+
+- title: "Measuring Collaboration in Modern Organizations"
+  authors: "Stephen Michael Impink and Andrea Prat"
+  venue: "AEA Papers and Proceedings 110"
+  year: 2020
+  status: published
+  theme: mgmt
+
+- title: "Healthy Business? Managerial Education and Management in Health Care"
+  authors: "Nicholas Bloom, Renata Lemos and John Van Reenen"
+  venue: "Review of Economics and Statistics 102(3)"
+  year: 2020
+  status: published
+  theme: public
+
+- title: "CEO Behavior and Firm Performance"
+  authors: "Oriana Bandiera, Stephen Hansen and Andrea Prat"
+  venue: "Journal of Political Economy 128(4)"
+  year: 2020
+  status: published
+  theme: leaders
+
+- title: "Managing the Family Firm: Evidence from CEOs at Work"
+  authors: "Oriana Bandiera, Renata Lemos and Andrea Prat"
+  venue: "Review of Financial Studies 31(5)"
+  year: 2018
+  status: published
+  theme: leaders
+
+- title: "International Data on Measuring Management Practices"
+  authors: "Nicholas Bloom, Renata Lemos, Daniela Scur and John Van Reenen"
+  venue: "American Economic Review Papers and Proceedings 106(5)"
+  year: 2016
+  status: published
+  theme: mgmt
+
+- title: "Hospital Board and Management Practices Are Strongly Related to Hospital Performance on Clinical Quality Metrics"
+  authors: "Nicholas Bloom, Atul Gawande, Robert Huckman, Ashish Jha and Thomas Tsai"
+  venue: "Health Affairs 34(8)"
+  year: 2015
+  status: published
+  theme: public
+
+- title: "Do Private Equity Owned Firms Have Better Management Practices?"
+  authors: "Nicholas Bloom and John Van Reenen"
+  venue: "American Economic Review Papers and Proceedings 105(5)"
+  year: 2015
+  status: published
+  theme: mgmt
+
+- title: "Does Management Matter in Schools?"
+  authors: "Nicholas Bloom, Renata Lemos and John Van Reenen"
+  venue: "Economic Journal 125(584)"
+  year: 2015
+  status: published
+  theme: public
+
+- title: "Matching Firms, Managers, and Incentives"
+  authors: "Oriana Bandiera, Luigi Guiso and Andrea Prat"
+  venue: "Journal of Labor Economics 33(3)"
+  year: 2015
+  status: published
+  theme: leaders
+
+- title: "Does Planning Regulation Protect Independent Retailers?"
+  authors: ""
+  venue: "Review of Economics and Statistics 97(5)"
+  year: 2015
+  status: published
+  theme: mgmt
+
+- title: "The New Empirical Economics of Management"
+  authors: "Nicholas Bloom, Renata Lemos, Daniela Scur and John Van Reenen"
+  venue: "Journal of the European Economic Association 12(4)"
+  year: 2014
+  status: published
+  theme: mgmt
+
+- title: "The Distinct Effects of Information Technology and Communication Technology on Firm Organization"
+  authors: "Nicholas Bloom, Luis Garicano and John Van Reenen"
+  venue: "Management Science 60(12)"
+  year: 2014
+  status: published
+  theme: ai
+
+- title: "The Organization of Firms Across Countries"
+  authors: "Nicholas Bloom and John Van Reenen"
+  venue: "Quarterly Journal of Economics 127(4)"
+  year: 2012
+  status: published
+  theme: mgmt
+
+- title: "Americans Do IT Better: US Multinationals and the Productivity Miracle"
+  authors: "Nicholas Bloom and John Van Reenen"
+  venue: "American Economic Review 102(1)"
+  year: 2012
+  status: published
+  theme: mgmt
+
+- title: "Regulation and UK Retailing Productivity: Evidence from Microdata"
+  authors: "Jonathan Haskel"
+  venue: "Economica 79"
+  year: 2012
+  status: published
+  theme: mgmt
+
+- title: "Management Practices across Firms and Countries"
+  authors: "Nicholas Bloom, Christos Genakos and John Van Reenen"
+  venue: "Academy of Management Perspectives 26(1)"
+  year: 2012
+  status: published
+  theme: mgmt
+
+- title: "Modern Management: Good for the Environment or Just Hot Air?"
+  authors: "Nicholas Bloom, Christos Genakos and Ralf Martin"
+  venue: "Economic Journal 120(544)"
+  year: 2010
+  status: published
+  theme: mgmt
+
+- title: "Does Product Market Competition Lead Firms to Decentralize?"
+  authors: "Nicholas Bloom and John Van Reenen"
+  venue: "American Economic Review Papers and Proceedings 100(2)"
+  year: 2010
+  status: published
+  theme: mgmt
+
+- title: "Recent Advances in the Empirics of Organizational Economics"
+  authors: "Nicholas Bloom and John Van Reenen"
+  venue: "Annual Review of Economics 2"
+  year: 2010
+  status: published
+  theme: mgmt
+
+- title: "Measuring and Explaining Management Practices in Italy"
+  authors: "Nicholas Bloom and John Van Reenen"
+  venue: "Rivista di Politica Economica"
+  year: 2008
+  status: published
+  theme: mgmt
+
+- title: "Are Founder CEOs Good Managers?"
+  authors: "Victor Bennett and Megan Lawrence"
+  venue: "In Measuring Entrepreneurial Businesses, University of Chicago Press"
+  year: 2017
+  status: chapter
+  theme: leaders
+
+- title: "Italian Managers: Fidelity or Performance?"
+  authors: "Oriana Bandiera, Luigi Guiso and Andrea Prat"
+  venue: "In The Ruling Class: Management and Politics in Modern Italy, Oxford University Press"
+  year: 2010
+  status: chapter
+  theme: leaders

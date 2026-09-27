@@ -1,0 +1,26 @@
+---
+layout: base.njk
+layoutKind: home
+---
+<div class="home" id="content">
+  <div class="home-art">
+    {% include "hero.svg" %}
+  </div>
+  <div class="home-main">
+    <h1 class="home-name">Raffaella<br>Sadun</h1>
+    <div class="home-rule"></div>
+    <p class="home-statement">{{ site.statement }}</p>
+    <nav class="home-nav" aria-label="Main">
+      <a href="/research/">Research</a>
+      <a href="/projects/">Projects &amp; Data</a>
+      <a href="/media/">Media &amp; Talks</a>
+      <a href="/about/">About</a>
+    </nav>
+    <div class="home-foot">
+      <div class="smallcaps">{{ site.short_title }}</div>
+      <div class="smallcaps red">{{ site.interests }}</div>
+      <div class="home-contact"><a href="mailto:{{ site.email }}">{{ site.email }}</a><span>Assistant: {{ site.assistant.name }}, <a href="mailto:{{ site.assistant.email }}">{{ site.assistant.email }}</a></span></div>
+      <div class="linkrow">{% for l in site.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</div>
+    </div>
+  </div>
+</div>

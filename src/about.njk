@@ -1,0 +1,62 @@
+---
+layout: base.njk
+title: About
+permalink: /about/
+---
+<h1 class="page-title">About</h1>
+<div class="about-grid">
+  <section class="bio" aria-label="Biography">
+    <div class="bio-tabs" role="tablist" aria-label="Bio length">
+      <button role="tab" id="tab-long" aria-selected="true" aria-controls="bio-long">Long</button>
+      <button role="tab" id="tab-medium" aria-selected="false" aria-controls="bio-medium">Medium</button>
+      <button role="tab" id="tab-short" aria-selected="false" aria-controls="bio-short">Short</button>
+      <button class="copy" type="button" id="copy-bio">Copy bio</button>
+    </div>
+    <div class="bio-panel" id="bio-long" role="tabpanel" aria-labelledby="tab-long">{% for p in site.bios.long %}<p>{{ p }}</p>{% endfor %}</div>
+    <div class="bio-panel" id="bio-medium" role="tabpanel" aria-labelledby="tab-medium" hidden><p>{{ site.bios.medium }}</p></div>
+    <div class="bio-panel" id="bio-short" role="tabpanel" aria-labelledby="tab-short" hidden><p>{{ site.bios.short }}</p></div>
+  </section>
+
+  <aside>
+    <div class="aside-block">
+      <h2>CV</h2>
+      <p><a href="/files/Sadun_CV.pdf">Download CV (PDF)</a></p>
+    </div>
+    <div class="aside-block">
+      <h2>Contact</h2>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>Assistant: {{ site.assistant.name }}, <a href="mailto:{{ site.assistant.email }}">{{ site.assistant.email }}</a></p>
+      <p>Harvard Business School, Morgan Hall 215, Boston, MA 02163</p>
+    </div>
+  </aside>
+</div>
+
+<section class="section">
+  <div class="section-head"><h2>Photos</h2></div>
+  <p class="section-blurb">High-resolution photos for event programs and press. Click to download; please credit the photographer.</p>
+  <div class="photos">
+    {% for ph in site.photos %}
+    <figure>
+      <a href="/photos/{{ ph.file }}" download><img src="/photos/{{ ph.thumb }}" alt="Raffaella Sadun, {{ ph.label | lower }}" loading="lazy"></a>
+      <figcaption>{{ ph.label }} · Photo: {{ ph.credit }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+(function () {
+  var tabs = document.querySelectorAll('.bio-tabs [role="tab"]');
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () {
+      tabs.forEach(function (o) { o.setAttribute('aria-selected', 'false'); document.getElementById(o.getAttribute('aria-controls')).hidden = true; });
+      t.setAttribute('aria-selected', 'true'); document.getElementById(t.getAttribute('aria-controls')).hidden = false;
+    });
+  });
+  document.getElementById('copy-bio').addEventListener('click', function (e) {
+    var panel = document.querySelector('.bio-panel:not([hidden])');
+    var text = Array.from(panel.querySelectorAll('p')).map(function (p) { return p.textContent; }).join('\n\n');
+    try { navigator.clipboard.writeText(text); e.target.textContent = 'Copied'; setTimeout(function () { e.target.textContent = 'Copy bio'; }, 1500); } catch (err) {}
+  });
+})();
+</script>

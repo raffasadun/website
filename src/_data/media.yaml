@@ -1,0 +1,294 @@
+- date: '2026-09-04'
+  group: Press
+  kind: press
+  outlet: Harvard Gazette
+  title: Survey of young researchers raises concerns over future of science in U.S.
+  url: https://news.harvard.edu/gazette/story/2026/09/survey-of-young-researchers-raises-concerns-over-future-of-science-in-u-s/
+  lang: en
+- date: '2026-08-13'
+  group: Press
+  kind: citation
+  outlet: MIT (cited in report)
+  title: 'AI and Education: Report of MIT’s Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training'
+  url: https://aiandeducation.mit.edu/report/
+  lang: en
+- date: '2026-06-18'
+  group: Press
+  kind: press
+  outlet: Harvard Business School Working Knowledge
+  title: Want Workers to Reskill? Show Them Who They Can Become
+  url: https://www.library.hbs.edu/working-knowledge/want-workers-to-reskill-show-them-who-they-can-become
+  lang: en
+- date: '2026-06-09'
+  group: Press
+  kind: press
+  outlet: The Wall Street Journal
+  title: Economists Weigh In on the Future of Work and AI
+  url: https://www.wsj.com/tech/ai/economists-weigh-in-on-the-future-of-work-and-ai-f59311e9
+  lang: en
+- date: '2026-04-27'
+  group: Podcasts
+  kind: podcast
+  outlet: Transform Work (Open Assembly)
+  title: Transform Work with Raffaella Sadun, Professor of Business Administration at Harvard Business School
+  url: https://podcasts.apple.com/us/podcast/transform-work-with-raffaella-sadun-professor-of/id1529499847?i=1000763809139
+  lang: en
+- date: '2026-01-27'
+  group: Press
+  kind: interview
+  outlet: WorkLab (Microsoft)
+  title: If no one's complaining about AI, you're doing it wrong
+  url: https://www.microsoft.com/en-us/worklab/if-no-one-is-complaining-about-ai-you-are-doing-it-wrong
+  lang: en
+- date: '2026-01-26'
+  group: Talks
+  kind: video
+  outlet: World Bank
+  title: 'Making AI Work: What Firms and Workers Need (keynote: Management and Reskilling in the Age of AI)'
+  url: https://www.worldbank.org/en/events/2026/01/26/making-ai-work-what-firms-and-workers-need
+  lang: en
+- date: '2026'
+  group: Press
+  kind: press
+  outlet: Financial Times · Anjana Ahuja
+  title: The next generation of American scientists is fading away
+  url: https://www.ft.com/content/848b9daf-6fc0-436d-8d9e-45e7bcab9676
+  lang: en
+- date: '2025-12-15'
+  group: Talks
+  kind: video
+  outlet: Federal Reserve Bank of San Francisco (EmergingTech Economic Research Network)
+  title: Management and Reskilling in the Age of AI
+  url: https://www.frbsf.org/news-and-media/events/2025/12/raffaella-sadun-management-reskilling-in-the-age-of-ai/
+  lang: en
+- date: '2025-11-24'
+  group: Talks
+  kind: video
+  outlet: Microsoft (YouTube) / WorkLab
+  title: Harvard's Raffaella Sadun on why it's so hard to become an AI-first organization
+  url: https://www.youtube.com/watch?v=OBgYzaMQbQY
+  lang: en
+- date: '2025-11-19'
+  group: Podcasts
+  kind: podcast
+  outlet: WorkLab (Microsoft)
+  title: Harvard's Raffaella Sadun on why it's so hard to become a Frontier Firm
+  url: https://www.microsoft.com/en-us/worklab/podcast/harvard-raffaella-sadun-on-why-its-so-hard-to-become-a-frontier-firm
+  lang: en
+- date: '2025-10-22'
+  group: Podcasts
+  kind: podcast
+  outlet: lavoce.info - Lavoce in mezz'ora
+  title: Piccolo e' davvero bello? Intervista a Raffaella Sadun
+  url: https://lavoce.info/archives/109217/piccolo-e-davvero-bello/
+  lang: it
+- date: '2025-09-05'
+  group: Press
+  kind: press
+  outlet: Harvard Business School Working Knowledge
+  title: 'The ''Secret Ingredient'' for Effective Training: Middle Managers'
+  url: https://www.library.hbs.edu/working-knowledge/secret-ingredient-for-effective-workforce-training-middle-managers
+  lang: en
+- date: '2025-06-23'
+  group: Press
+  kind: interview
+  outlet: SSRN Blog
+  title: 'Meet the Author: Raffaella Sadun'
+  url: https://blog.ssrn.com/2025/06/23/meet-the-author-raffaella-sadun/
+  lang: en
+- date: '2025-06-12'
+  group: Press
+  kind: press
+  outlet: Harvard Business School Working Knowledge
+  title: '''Misfits'' in Power: When a Company Needs a Leader CEO, But Gets a Manager'
+  url: https://www.library.hbs.edu/working-knowledge/misfits-in-power-company-needs-a-leader-ceo-but-gets-manager
+  lang: en
+- date: '2025-03-18'
+  group: Podcasts
+  kind: podcast
+  outlet: Me, Myself, and AI (MIT Sloan Management Review / BCG)
+  title: 'Reskilling the Workforce With AI: Harvard Business School''s Raffaella Sadun'
+  url: https://sloanreview.mit.edu/audio/reskilling-the-workforce-with-ai-harvard-business-schools-raffaella-sadun/
+  lang: en
+- date: '2024-09-24'
+  group: Talks
+  kind: video
+  outlet: Washington Post Live
+  title: The impact of AI on the workforce, education and the economy
+  url: https://www.washingtonpost.com/washington-post-live/2024/09/24/futurist-training-ai-age/
+  lang: en
+- date: '2024-05-31'
+  group: Talks
+  kind: talk
+  outlet: Festival Internazionale dell'Economia (Turin)
+  title: Riqualificare il lavoro nell'era dell'Intelligenza Artificiale
+  url: https://www.unito.it/sites/default/files/festival_torino_2024_programma.pdf
+  lang: it
+- date: '2024-02-01'
+  group: Press
+  kind: press
+  outlet: QuiFinanza
+  title: Raffaella Sadun, ruolo nei governi Conte e Draghi
+  url: https://quifinanza.it/economia/raffaella-sadun-ruolo-governo-conte-draghi/793464/
+  lang: it
+- date: '2023-12-20'
+  group: Talks
+  kind: video
+  outlet: Collegio Carlo Alberto (Turin)
+  title: Inaugural Lecture A.Y. 23/24 - Reskilling in the Age of AI
+  url: https://www.youtube.com/watch?v=iOUzZKNNRFI
+  lang: en
+- date: '2023-11-15'
+  group: Talks
+  kind: video
+  outlet: Harvard Business Review webinar
+  title: Reskilling in the Age of AI
+  url: https://hbr.org/webinar/2023/11/reskilling-in-the-age-of-ai
+  lang: en
+- date: '2023-10-31'
+  group: Podcasts
+  kind: podcast
+  outlet: HBR IdeaCast (Harvard Business Review)
+  title: How Job Training Must Change in the AI Age
+  url: https://hbr.org/podcast/2023/10/how-job-training-must-change-in-the-ai-age
+  lang: en
+- date: '2023-08-01'
+  group: Podcasts
+  kind: podcast
+  outlet: Social Science Bites (SAGE / Social Science Space)
+  title: Raffaella Sadun on Effective Management
+  url: https://www.socialsciencespace.com/2023/08/raffaella-sadun-on-effective-management/
+  lang: en
+- date: '2022-10-19'
+  group: Talks
+  kind: video
+  outlet: FehrAdvice / Academy of Behavioral Economics 2022 (GDI)
+  title: 'Academy of Behavioral Economics 2022 Interview: Raffaella Sadun'
+  url: https://fehradvice.com/blog/2022/10/19/video-raffaella-sadun-interview/
+  lang: en
+- date: '2022-09-10'
+  group: Press
+  kind: interview
+  outlet: Formiche.net
+  title: Svelare i "misteri" di produttivita' e innovazione. L'economia secondo Sadun
+  url: https://formiche.net/2022/09/raffaella-sadun-premio-de-sanctis/
+  lang: it
+- date: '2022-09-02'
+  group: Press
+  kind: press
+  outlet: AGI
+  title: Assegnato il premio De Sanctis per le Scienze Economiche a Raffaella Sadun e Guido Tabellini
+  url: https://www.agi.it/economia/news/2022-09-02/premio-de-sanctis-per-le-scienze-economiche-a-sadun-e-tabellini-17936464/
+  lang: it
+- date: '2022-05-10'
+  group: Talks
+  kind: talk
+  outlet: Universita' LUM Giuseppe Degennaro
+  title: Management e la ricchezza delle nazioni
+  url: https://www.lum.it/raffaella-sadun-professor-of-business-administration-presso-la-harvard-business-school-terra-una-relazione-su-management-e-la-ricchezza-delle-nazioni/
+  lang: it
+- date: '2022-02-08'
+  group: Press
+  kind: press
+  outlet: Il Foglio
+  title: 'A Palazzo Chigi un''esperta di produttivita'': Sadun'
+  url: https://www.ilfoglio.it/politica/2022/02/08/news/a-palazzo-chigi-un-esperta-di-produttivita-sadun-3660945/
+  lang: it
+- date: '2021-04-15'
+  group: Op-eds
+  kind: op-ed
+  outlet: Il Foglio
+  title: Coinvolgere il privato per rilanciare le politiche attive post-Covid
+  url: https://sites.google.com/site/andreagarnero/in-the-media/op-eds
+  lang: it
+- date: '2021-04-14'
+  group: Press
+  kind: interview
+  outlet: Pagine Ebraiche (reprinted on Moked)
+  title: 'L''intervista a Raffaella Sadun, economista ad Harvard: "Crisi, lezione per il futuro"'
+  url: https://moked.it/blog/2021/04/14/leconomista-raffaella-sadun-crisi-lezione-per-il-futuro/
+  lang: it
+- date: '2021-03-23'
+  group: Podcasts
+  kind: podcast
+  outlet: The Visible Hand (Jordi Blanes i Vidal)
+  title: 'Episode 9: Raffaella Sadun on Communication in Organisations'
+  url: https://www.thevisiblehand.uk/episodes/episode-9
+  lang: en
+- date: '2021-01-24'
+  group: Press
+  kind: interview
+  outlet: CBS Sunday Morning
+  title: Will we ever get back to the office?
+  url: https://www.cbsnews.com/news/will-we-ever-get-back-to-the-office/
+  lang: en
+- date: 2020-09
+  group: Podcasts
+  kind: podcast
+  outlet: Economists on Zoom Getting Coffee (Dany Bahar)
+  title: 'S1 Episode #3 - Raffaella Sadun - "Management"'
+  url: https://danybahar.substack.com/p/s1-episode-3-raffaella-sadun-management-180
+  lang: en
+- date: '2020-04-12'
+  group: Press
+  kind: press
+  outlet: Moked (Italian Jewish community news)
+  title: Da Roma ad Harvard, l'economista Sadun nella task force coordinata da Colao
+  url: https://moked.it/blog/2020/04/12/roma-ad-harvard-leconomista-sadun-nella-task-force-coordinata-colao/
+  lang: it
+- date: '2020-03-30'
+  group: Op-eds
+  kind: op-ed
+  outlet: Il Foglio
+  title: Cosa non ha funzionato nel "modello Italia" contro il coronavirus
+  url: https://www.ilfoglio.it/salute/2020/03/30/news/cosa-non-ha-funzionato-nel-modello-italia-contro-il-coronavirus-307395/
+  lang: it
+- date: '2020'
+  group: Talks
+  kind: video
+  outlet: Festival dell'Economia di Trento
+  title: Il management della sanita' durante la pandemia (in conversation with Tito Boeri)
+  url: https://video.festivaleconomia.it/w/video/il-management-della-sanit-durante-la-pandemia-tito-boeri-raffaella-sadun
+  lang: it
+- date: '2019-05-22'
+  group: Talks
+  kind: video
+  outlet: Stigler Center, Chicago Booth
+  title: 'Management Strategy and Beyond (3 lectures: Does management matter? / Why does management vary across firms? / The role of management in the public sector)'
+  url: https://www.chicagobooth.edu/research/stigler/events/may-22-through-24-2019-management-strategy-and-beyond-with-raffaella-sadun
+  lang: en
+- date: '2018-05-31'
+  group: Talks
+  kind: talk
+  outlet: Festival dell'Economia di Trento
+  title: Lecture on productivity, new technologies and management practices (intro by Roberto Mania)
+  url: https://www.ufficiostampa.provincia.tn.it/Comunicati/Per-il-futuro-delle-imprese-servono-coscienza-motivazione-e-cultura-dell-organizzazione-nelle-manager-practices
+  lang: it
+- date: '2018-01-17'
+  group: Podcasts
+  kind: podcast
+  outlet: Freakonomics Radio
+  title: What Does a C.E.O. Actually Do?
+  url: https://freakonomics.com/podcast/what-does-a-c-e-o-actually-do/
+  lang: en
+- date: '2017-10-30'
+  group: Press
+  kind: press
+  outlet: Fast Company
+  title: How The Most (And Least) Successful CEOs Spend Their Workdays
+  url: https://www.fastcompany.com/40484001/how-the-most-and-least-successful-ceos-spend-their-workdays
+  lang: en
+- date: '2017-08-24'
+  group: Podcasts
+  kind: podcast
+  outlet: HBR IdeaCast (Harvard Business Review)
+  title: Basic Competence Can Be a Strategy (ep. 591)
+  url: https://hbr.org/podcast/2017/08/basic-competence-can-be-a-strategy
+  lang: en
+- date: '2016-04-05'
+  group: Press
+  kind: interview
+  outlet: MIT Sloan Management Review
+  title: 'Information vs. Communication: The Battle to Influence Decision Making'
+  url: http://sloanreview.mit.edu/article/information-vs-communication-the-battle-to-influence-decision-making/
+  lang: en

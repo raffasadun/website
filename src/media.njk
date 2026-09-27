@@ -1,0 +1,46 @@
+---
+layout: base.njk
+title: Media & Talks
+permalink: /media/
+---
+<h1 class="page-title">Media &amp; Talks</h1>
+<p class="lead">Podcasts, talks, interviews and writing for practitioners and policy audiences. For speaking requests, please contact <a href="{{ site.speaking.url }}">{{ site.speaking.name }}</a>.</p>
+<ul class="chips">
+  <li><a href="#podcasts">Podcasts</a></li><li><a href="#talks">Talks</a></li><li><a href="#writing">Writing</a></li><li><a href="#press">Press &amp; interviews</a></li><li><a href="#op-eds">Op-eds</a></li>
+</ul>
+
+{% macro mediaList(items) %}
+<ul class="entries">
+  {% for m in items %}
+  <li class="media-row">
+    <div class="media-date">{{ m.date | monthYear }}</div>
+    <div>
+      <a class="media-title" href="{{ m.url }}">{{ m.title }}</a>{% if m.lang == "it" %}<span class="tag" title="In Italian">IT</span>{% endif %}
+      <div class="media-outlet">{{ m.outlet }}</div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+<section class="section" id="podcasts"><div class="section-head"><h2>Podcasts</h2></div>{{ mediaList(media | byGroup("Podcasts")) }}</section>
+<section class="section" id="talks"><div class="section-head"><h2>Talks</h2></div>{{ mediaList(media | byGroup("Talks")) }}</section>
+
+<section class="section" id="writing">
+  <div class="section-head"><h2>Writing</h2></div>
+  <p class="section-blurb">Articles in Harvard Business Review, VoxEU and other outlets.</p>
+  <ul class="entries">
+    {% for w in writing %}
+    <li class="media-row">
+      <div class="media-date">{{ w.date | monthYear }}</div>
+      <div>
+        <a class="media-title" href="https://scholar.google.com/scholar?q={{ ('"' + w.title + '"') | urlencode }}">{{ w.title }}</a>
+        <div class="media-outlet">{{ w.outlet }}{% if w.authors %} · with {{ w.authors }}{% endif %}{% if w.note %} · <strong>{{ w.note }}</strong>{% endif %}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section" id="press"><div class="section-head"><h2>Press &amp; interviews</h2></div>{{ mediaList(media | byGroup("Press")) }}</section>
+<section class="section" id="op-eds"><div class="section-head"><h2>Op-eds</h2></div>{{ mediaList(media | byGroup("Op-eds")) }}</section>

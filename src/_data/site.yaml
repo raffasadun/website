@@ -1,0 +1,48 @@
+name: "Raffaella Sadun"
+title: "Charles E. Wilson Professor of Business Administration, Harvard Business School"
+short_title: "Charles E. Wilson Professor · Harvard Business School"
+interests: "Management · Productivity · Leaders · AI and Work"
+statement: "What happens in the economy starts inside organizations. I study how management and organization shape productivity, and how technology is changing the way managers and workers get things done."
+url: "https://raffaellasadun.com"
+email: "rsadun@hbs.edu"
+assistant: {name: "Ashley Rollend", email: "arollend@hbs.edu"}
+speaking: {name: "Stern Strategy Group", url: "https://sternstrategy.com/speakers/raffaella-sadun/"}
+links:
+  - {label: "CV", url: "/files/Sadun_CV.pdf"}
+  - {label: "Google Scholar", url: "https://scholar.google.com/citations?user=JvctKJcAAAAJ&hl=en"}
+  - {label: "SSRN", url: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=848821"}
+  - {label: "NBER", url: "https://www.nber.org/people/raffaella_sadun"}
+  - {label: "HBS", url: "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=541712"}
+  - {label: "LinkedIn", url: "https://www.linkedin.com/in/raffaella-sadun-3a182225/"}
+  - {label: "X", url: "https://x.com/raffasadun"}
+
+themes:
+  - {key: mgmt, name: "Management practices and productivity", blurb: "Why some organizations are much better managed than others, and what it means for productivity across firms and countries."}
+  - {key: leaders, name: "Leaders and managers", blurb: "What CEOs and managers actually do with their time and attention, and how it shapes their organizations."}
+  - {key: ai, name: "Technology, AI and work", blurb: "How new technologies, from IT to generative AI, change the organization of work, and whether training helps workers keep up."}
+  - {key: public, name: "Health care and the public sector", blurb: "Management in hospitals, schools and government."}
+
+bios:
+  short: "Raffaella Sadun is the Charles E. Wilson Professor of Business Administration at Harvard Business School and Faculty Co-Director of the HBS Digital Reskilling Lab. An economist, she studies how management and organization shape productivity in companies and the public sector. She co-founded the World Management Survey and holds a PhD in Economics from the London School of Economics."
+  medium: "Raffaella Sadun is the Charles E. Wilson Professor of Business Administration at Harvard Business School, where she is also Senior Associate Dean for HBS Publishing and Faculty Co-Director of the Digital Reskilling Lab. Her research studies how management and organization drive productivity, in companies and in the public sector. She co-founded several large-scale projects that measure management practices and what managers do, including the World Management Survey, the Executive Time Use Study, and the first large-scale survey of management in US hospitals, run with the US Census Bureau. Her articles appear in the Quarterly Journal of Economics, the American Economic Review and the Journal of Political Economy, and her Harvard Business Review articles won the McKinsey Award (2018) and the HBR Prize (2023). She advised Italian Prime Minister Mario Draghi in 2022. She holds a PhD in Economics from the London School of Economics."
+  long:
+    - "Raffaella Sadun is the Charles E. Wilson Professor of Business Administration at Harvard Business School, where she also serves as Senior Associate Dean for HBS Publishing and chairs the board of Harvard Business School Publishing. She is Faculty Co-Director of the HBS Digital Reskilling Lab, Faculty Co-Chair of HBS’s Project on Managing the Future of Work, Faculty Co-Director of the Harvard Project on the Workforce, and Faculty Co-Chair of the Project on Israel and the Regional Economy at HBS. She directs the National Bureau of Economic Research Working Group in Organizational Economics."
+    - "Her research studies how management and organization drive productivity and growth, in companies and in the public sector. She co-founded several large-scale projects to measure management practices and managerial behavior, including the World Management Survey, the Executive Time Use Study, and the Management and Organizational Practices Survey of Hospitals, conducted with the US Census Bureau. This work has shown how widely the use of basic management practices varies across organizations and countries, and how much this matters for productivity. At the Digital Reskilling Lab, she studies large training investments made by private and public organizations, and how new technologies, including generative AI, change the way work is organized."
+    - "Her articles have appeared in the Quarterly Journal of Economics, the American Economic Review, the Journal of Political Economy and other leading journals. Her Harvard Business Review articles received the McKinsey Award in 2018 and the HBR Prize in 2023, and she was named to the Thinkers50 Radar in 2023."
+    - "In Italy, she advised Prime Minister Mario Draghi in 2022 and chairs the independent scientific committee of the Fondo per la Repubblica Digitale. In 2021 she was named Grande Ufficiale of the Order of Merit of the Italian Republic, and in 2022 she received the Fondazione De Sanctis Prize for Economics, awarded to the best Italian economist under 45. She holds a PhD in Economics from the London School of Economics."
+
+photos:
+  - {file: "Sadun_portrait_2022.jpg", thumb: "portrait_thumb.jpg", credit: "Russ Campbell", label: "Portrait (2022)"}
+  - {file: "Sadun_speaking_2025_b.jpg", thumb: "speaking_b_thumb.jpg", credit: "Neal Hamberg", label: "Speaking (2025)"}
+
+how_we_work: "My work aims to measure in a rigorous way what happens inside organizations. The default approach to this work is team based, working on projects with long-running teams of researchers, fellows and partner organizations, built over many years. We work with companies and governments as partners, make our data available to other researchers, and train the next generation of researchers along the way."
+
+projects:
+  - {label: "Data · Co-founder", name: "World Management Survey", text: "The first dataset to measure management practices across countries and industries with one consistent method: manufacturing firms, retailers, hospitals and schools.", url: "https://worldmanagementsurvey.org", linktext: "worldmanagementsurvey.org"}
+  - {label: "Lab · Faculty Co-Director", name: "Digital Reskilling Lab", text: "With Jorge Tamayo at HBS. Do training programs reach the workers who need them most, and do they work? We test programs with companies and public agencies.", url: "https://aiinstitute.hbs.edu/labs/digital-reskilling-lab/", linktext: "Digital Reskilling Lab"}
+  - {label: "Project · Principal Investigator", name: "Scientific Labs Management Project", text: "How management practices in scientific laboratories affect research productivity and innovation. With Pierre Azoulay, Paul Niehaus, Daniela Scur, John Van Reenen and Heidi Williams; funded by the Alfred P. Sloan Foundation and the Institute for Progress.", url: "https://labsmanagement.org/project-team/", linktext: "labsmanagement.org"}
+  - {label: "Data · US Census Bureau", name: "Management in US Hospitals (MOPS-HP)", text: "The first large-scale survey of management practices in US hospitals, run by the Census Bureau across about 3,200 general hospitals.", url: "https://www.census.gov/programs-surveys/mops-hp.html", linktext: "census.gov"}
+  - {label: "Policy · Chair, Scientific Committee", name: "Fondo per la Repubblica Digitale", text: "A €350 million Italian public-private fund for digital skills. The scientific committee I chair checks whether funded projects actually improve people’s skills and job prospects, and publishes the results.", url: "https://www.fondorepubblicadigitale.it/", linktext: "fondorepubblicadigitale.it"}
+  - {label: "Project · Faculty Co-Chair", name: "Project on Israel and the Regional Economy", text: "A Harvard Business School hub for research on the economies of Israel and the wider Middle East and North Africa, co-chaired with Paul Gompers. Current work covers the startup and innovation ecosystem and reskilling programs.", url: "https://www.hbs.edu/about/research/israel-regional-economy", linktext: "hbs.edu"}
+
+funders: ["Google", "J-PAL", "Russell Sage Foundation", "National Science Foundation", "Microsoft", "NBER", "Alfred P. Sloan Foundation and Institute for Progress (Scientific Labs Management Project)", "Ariadne Labs", "Rx Foundation", "Kauffman Foundation", "International Growth Centre"]

@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: Research
+permalink: /research/
+---
+<h1 class="page-title">Research</h1>
+<p class="lead">My work measures what managers and organizations actually do, and asks how much it matters for productivity. Papers are grouped by theme, newest first. The complete list is in my <a href="/files/Sadun_CV.pdf">CV</a> and on <a href="{{ site.links[1].url }}">Google Scholar</a>.</p>
+<ul class="chips">
+  {% for t in site.themes %}<li><a href="#{{ t.key }}">{{ t.name }}</a></li>{% endfor %}
+</ul>
+
+{% for t in site.themes %}
+<section class="section" id="{{ t.key }}">
+  <div class="section-head"><h2>{{ t.name }}</h2></div>
+  <p class="section-blurb">{{ t.blurb }}</p>
+  {% for group in [["working","Working papers"],["published","Published"],["chapter","Book chapters"]] %}
+    {% set list = papers | byTheme(t.key, group[0]) %}
+    {% if list.length %}
+    <h3 class="sub">{{ group[1] }}</h3>
+    <ul class="entries">
+      {% for p in list %}
+      <li class="entry">
+        <a class="entry-title" href="{{ p | mainLink }}">{{ p.title }}</a>
+        <div class="entry-meta">{% if p.authors %}with {{ p.authors }} · {% endif %}<em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}</div>
+        {% if p.links %}<div class="entry-links">
+          {% if p.links.pdf %}<a href="{{ p.links.pdf }}">PDF</a>{% endif %}
+          {% if p.links.journal %}<a href="{{ p.links.journal }}">Journal</a>{% endif %}
+          {% if p.links.nber %}<a href="{{ p.links.nber }}">NBER</a>{% endif %}
+          {% if p.links.data %}<a href="{{ p.links.data }}">Data</a>{% endif %}
+        </div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% endfor %}
+</section>
+{% endfor %}
