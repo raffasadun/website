@@ -188,7 +188,7 @@
     free: https://www.hbs.edu/ris/download.aspx?name=teodorovicz_kun_sadun_shaer_2022_ijhcs_ungated.pdf
 - title: 'Perceptions Related to Engaging in Non-Driving Activities in an Automated Vehicle while Commuting: A Text Mining Approach'
   authors: Yilun Xing, Linda Ng Boyle, John D. Lee, Orit Shaer and Andrew Kun
-  venue: Transportation Research Part F 94
+  venue: "Transportation Research Part F: Traffic Psychology and Behaviour 94"
   year: 2023
   status: published
   theme: ai
@@ -197,7 +197,7 @@
     free: https://par.nsf.gov/servlets/purl/10453088
 - title: Measuring Collaboration in Modern Organizations
   authors: Stephen Michael Impink and Andrea Prat
-  venue: AEA Papers and Proceedings 110
+  venue: American Economic Review Papers and Proceedings 110
   year: 2020
   status: published
   theme: mgmt
@@ -322,7 +322,7 @@
     free: https://www.nber.org/papers/w13085
 - title: 'Regulation and UK Retailing Productivity: Evidence from Microdata'
   authors: Jonathan Haskel
-  venue: Economica 79
+  venue: Economica 79(315)
   year: 2012
   status: published
   theme: mgmt
