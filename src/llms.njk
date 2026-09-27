@@ -1,0 +1,21 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }}
+
+> {{ site.title }}. {{ site.statement }}
+
+This site lists Raffaella Sadun's research papers, projects, media appearances and biography. A machine-readable list of all papers, with links to journal pages and free versions, is at {{ site.url }}/papers.json.
+
+## Pages
+- [Research by theme]({{ site.url }}/research/)
+- [Research by year]({{ site.url }}/research/by-year/)
+- [Projects and data]({{ site.url }}/projects/)
+- [Media and talks]({{ site.url }}/media/)
+- [About and biography]({{ site.url }}/about/)
+- [CV (PDF)]({{ site.url }}/files/Sadun_CV.pdf)
+
+## Papers
+{% for p in papers %}- {{ p.title }}{% if p.authors %} (with {{ p.authors }}){% endif %}. {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}.{% if p.pdf %} PDF: {{ site.url }}{{ p.pdf }}{% endif %}{% if p.links and p.links.free %} Free version: {{ p.links.free }}{% endif %}{% if p.links and p.links.journal %} Journal: {{ p.links.journal }}{% endif %}
+{% endfor %}

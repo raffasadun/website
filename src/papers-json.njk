@@ -1,0 +1,9 @@
+---
+permalink: /papers.json
+eleventyExcludeFromCollections: true
+---
+{%- set out = [] -%}
+{%- for p in papers -%}
+{%- set out = (out.push({ title: p.title, coauthors: p.authors, venue: p.venue, year: p.year, status: p.status, theme: (p.theme | themeName(site.themes)), journal_url: (p.links.journal if p.links else ""), free_version_url: (p.links.free if p.links else ""), pdf_url: (site.url + p.pdf if p.pdf else "") }), out) -%}
+{%- endfor -%}
+{{ { author: site.name, affiliation: "Harvard Business School", website: site.url, updated: page.date.toISOString().slice(0,10), papers: out } | json | safe }}

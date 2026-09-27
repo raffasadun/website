@@ -1,0 +1,19 @@
+---
+layout: base.njk
+title: Research by year
+permalink: /research/by-year/
+---
+<h1 class="page-title">Research</h1>
+<p class="lead">All papers, newest first. The complete list is also in my <a href="/files/Sadun_CV.pdf">CV</a> and on <a href="{{ site.links[1].url }}">Google Scholar</a>.</p>
+<div class="viewtoggle chips"><a href="/research/">By theme</a><a href="/research/by-year/" aria-current="page">By year</a></div>
+{% set showTheme = true %}
+{% for g in papers | yearGroups %}
+<section>
+  <h2 class="year-head">{{ g[0] }}</h2>
+  <ul class="entries">
+    {% for p in g[1] %}
+      {% include "paper.njk" %}
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

@@ -1,0 +1,10 @@
+<li class="entry">
+        {% set href = p | mainLink %}
+        {% if href %}<a class="entry-title" href="{{ href }}">{{ p.title }}</a>{% else %}<span class="entry-title">{{ p.title }}</span>{% endif %}
+        <div class="entry-meta">{% if p.authors %}with {{ p.authors }} · {% endif %}<em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}{% if showTheme %} · <span class="entry-theme">{{ p.theme | themeName(site.themes) }}</span>{% endif %}</div>
+        {% if p.pdf or (p.links and (p.links.journal or p.links.free)) %}<div class="entry-links">
+          {% if p.pdf %}<a href="{{ p.pdf }}">PDF</a>{% endif %}
+          {% if p.links and p.links.journal %}<a href="{{ p.links.journal }}">Journal</a>{% endif %}
+          {% if p.links and p.links.free %}<a href="{{ p.links.free }}">{{ p.links.free | freeLabel }}</a>{% endif %}
+        </div>{% endif %}
+</li>

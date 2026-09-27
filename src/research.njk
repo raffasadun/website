@@ -5,6 +5,7 @@ permalink: /research/
 ---
 <h1 class="page-title">Research</h1>
 <p class="lead">My work measures what managers and organizations actually do, and asks how much it matters for productivity. Papers are grouped by theme, newest first. The complete list is in my <a href="/files/Sadun_CV.pdf">CV</a> and on <a href="{{ site.links[1].url }}">Google Scholar</a>.</p>
+<div class="viewtoggle chips"><a href="/research/" aria-current="page">By theme</a><a href="/research/by-year/">By year</a></div>
 <ul class="chips">
   {% for t in site.themes %}<li><a href="#{{ t.key }}">{{ t.name }}</a></li>{% endfor %}
 </ul>
@@ -19,15 +20,7 @@ permalink: /research/
     <h3 class="sub">{{ group[1] }}</h3>
     <ul class="entries">
       {% for p in list %}
-      <li class="entry">
-        {% set href = p | mainLink %}
-        {% if href %}<a class="entry-title" href="{{ href }}">{{ p.title }}</a>{% else %}<span class="entry-title">{{ p.title }}</span>{% endif %}
-        <div class="entry-meta">{% if p.authors %}with {{ p.authors }} · {% endif %}<em>{{ p.venue }}</em>{% if p.year %}, {{ p.year }}{% endif %}</div>
-        {% if p.links and (p.links.journal or p.links.free) %}<div class="entry-links">
-          {% if p.links.journal %}<a href="{{ p.links.journal }}">Journal</a>{% endif %}
-          {% if p.links.free %}<a href="{{ p.links.free }}">{{ p.links.free | freeLabel }}</a>{% endif %}
-        </div>{% endif %}
-      </li>
+      {% include "paper.njk" %}
       {% endfor %}
     </ul>
     {% endif %}
