@@ -7,4 +7,11 @@ eleventyExcludeFromCollections: true
 {%- for u in ["/", "/research/", "/research/by-year/", "/projects/", "/media/", "/about/"] %}
   <url><loc>{{ site.url }}{{ u }}</loc></url>
 {%- endfor %}
+  <url><loc>{{ site.url }}/files/Sadun_CV.pdf</loc></url>
+{%- for p in papers %}{% if p.pdf %}
+  <url><loc>{{ site.url }}{{ p.pdf }}</loc></url>
+{%- endif %}{% endfor %}
+{%- for w in writing %}{% if w.pdf %}
+  <url><loc>{{ site.url }}{{ w.pdf }}</loc></url>
+{%- endif %}{% endfor %}
 </urlset>

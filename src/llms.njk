@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 
 > {{ site.title }}. {{ site.statement }}
 
-This site lists Raffaella Sadun's research papers, projects, media appearances and biography. A machine-readable list of all papers, with links to journal pages and free versions, is at {{ site.url }}/papers.json.
+This site lists Raffaella Sadun's research papers, projects, media appearances and biography. Full-text PDFs are hosted on this site under {{ site.url }}/papers/. A machine-readable list of all papers and practitioner articles, with PDF and journal links, is at {{ site.url }}/papers.json.
 
 ## Pages
 - [Research by theme]({{ site.url }}/research/)
@@ -18,4 +18,8 @@ This site lists Raffaella Sadun's research papers, projects, media appearances a
 
 ## Papers
 {% for p in papers %}- {{ p.title }}{% if p.authors %} (with {{ p.authors }}){% endif %}. {{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}.{% if p.pdf %} PDF: {{ site.url }}{{ p.pdf }}{% endif %}{% if p.links and p.links.free %} Free version: {{ p.links.free }}{% endif %}{% if p.links and p.links.journal %} Journal: {{ p.links.journal }}{% endif %}
+{% endfor %}
+
+## Writing for practitioners
+{% for w in writing %}- {{ w.title }}{% if w.authors %} (with {{ w.authors }}){% endif %}. {{ w.outlet }}, {{ w.date | monthYear }}.{% if w.pdf %} PDF: {{ site.url }}{{ w.pdf }}{% endif %}
 {% endfor %}

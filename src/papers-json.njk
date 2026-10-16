@@ -6,4 +6,8 @@ eleventyExcludeFromCollections: true
 {%- for p in papers -%}
 {%- set out = (out.push({ title: p.title, coauthors: p.authors, venue: p.venue, year: p.year, status: p.status, theme: (p.theme | themeName(site.themes)), journal_url: (p.links.journal if p.links else ""), free_version_url: (p.links.free if p.links else ""), pdf_url: (site.url + p.pdf if p.pdf else "") }), out) -%}
 {%- endfor -%}
-{{ { author: site.name, affiliation: "Harvard Business School", website: site.url, updated: page.date.toISOString().slice(0,10), papers: out } | json | safe }}
+{%- set wout = [] -%}
+{%- for w in writing -%}
+{%- set wout = (wout.push({ title: w.title, coauthors: w.authors, outlet: w.outlet, date: w.date, pdf_url: (site.url + w.pdf if w.pdf else "") }), wout) -%}
+{%- endfor -%}
+{{ { author: site.name, affiliation: "Harvard Business School", website: site.url, updated: page.date.toISOString().slice(0,10), papers: out, writing: wout } | json | safe }}
