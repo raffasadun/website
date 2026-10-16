@@ -8,6 +8,6 @@ eleventyExcludeFromCollections: true
 {%- endfor -%}
 {%- set wout = [] -%}
 {%- for w in writing -%}
-{%- set wout = (wout.push({ title: w.title, coauthors: w.authors, outlet: w.outlet, date: w.date, pdf_url: (site.url + w.pdf if w.pdf else "") }), wout) -%}
+{%- set wout = (wout.push({ title: w.title, coauthors: w.authors, outlet: w.outlet, date: w.date, pdf_url: (site.url + w.pdf if w.pdf else ""), url: (w.url or "") }), wout) -%}
 {%- endfor -%}
 {{ { author: site.name, affiliation: "Harvard Business School", website: site.url, updated: page.date.toISOString().slice(0,10), papers: out, writing: wout } | json | safe }}
