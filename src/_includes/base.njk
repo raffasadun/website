@@ -15,6 +15,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
+{%- set sameAs = [] -%}{%- for l in site.links -%}{%- if l.url.indexOf("http") == 0 -%}{%- set sameAs = (sameAs.push(l.url), sameAs) -%}{%- endif -%}{%- endfor -%}
+{%- set person = { "@type": "Person", "@id": site.url + "/#person", name: site.name, jobTitle: site.title, url: site.url + "/", email: "mailto:" + site.email, image: site.url + "/photos/portrait_thumb.jpg", worksFor: { "@type": "CollegeOrUniversity", name: "Harvard Business School", url: "https://www.hbs.edu" }, sameAs: sameAs } -%}
+{%- set graph = [person] -%}
+{%- if page.url.indexOf("/research/") == 0 -%}{%- for p in papers -%}
+{%- set art = { "@type": "ScholarlyArticle", name: p.title, author: ([{ "@id": site.url + "/#person" }].concat(p.authors | personList)) } -%}
+{%- if p.year -%}{%- set art = (art | setAttr("datePublished", p.year | string)) -%}{%- endif -%}
+{%- if p.venue -%}{%- set art = (art | setAttr("isPartOf", p.venue)) -%}{%- endif -%}
+{%- if p.pdf -%}{%- set art = (art | setAttr("url", site.url + p.pdf)) -%}{%- endif -%}
+{%- if p.links and p.links.journal -%}{%- set art = (art | setAttr("sameAs", p.links.journal)) -%}{%- endif -%}
+{%- set graph = (graph.push(art), graph) -%}
+{%- endfor -%}{%- endif -%}
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@graph": graph } | json | safe }}</script>
 </head>
 <body>
 <a class="skip" href="#content">Skip to content</a>

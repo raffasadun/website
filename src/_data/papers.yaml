@@ -74,9 +74,9 @@
   theme: ai
   links:
     free: https://www.nber.org/papers/w32932
-- title: 'The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise'
+- title: 'The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork'
   authors: Fabrizio Dell’Acqua, Charles Ayoubi, Hila Lifshitz, Ethan Mollick, Lilach Mollick, Yi Han, Jeff Goldman, Hari Nair, Stew Taub and Karim R. Lakhani
-  venue: Organization Science
+  venue: Organization Science 37(4)
   year: 2026
   status: published
   theme: ai
@@ -366,8 +366,6 @@
   year: 2008
   status: published
   theme: mgmt
-  links:
-    journal: https://www.rivistapoliticaeconomica.it/measuring-and-explaining-management-practices-in-italy/
 - title: Are Founder CEOs Good Managers?
   authors: Victor Bennett and Megan Lawrence
   venue: In Measuring Entrepreneurial Businesses, University of Chicago Press

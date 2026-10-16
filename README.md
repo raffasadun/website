@@ -7,4 +7,5 @@ Built with Eleventy. Content lives in `src/_data/`:
 - `site.yaml`: bios, statement, links, projects, funders, photos
 
 Build: `npm install && npm run build` (output in `_site/`).
-Hosting: Cloudflare Pages, build command `npm run build`, output directory `_site`.
+Hosting: Cloudflare Workers (static assets, see `wrangler.jsonc`). Every push to `main` builds with `npm run build` and deploys `_site`.
+Hosted paper PDFs live in `src/papers/` and are linked from the `pdf:` field in `papers.yaml` / `writing.yaml`.

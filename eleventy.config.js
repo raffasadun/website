@@ -43,6 +43,8 @@ export default function (eleventyConfig) {
     for (const [y, list] of groups) out.push([String(y), list]);
     return out;
   });
+  eleventyConfig.addFilter("personList", (str) => String(str || "").split(/,\s*(?:and\s+)?|\s+and\s+/).map((n) => n.trim()).filter((n) => n && !/^(coauthors|others|et al\.?)$/i.test(n)).map((name) => ({ "@type": "Person", name })));
+  eleventyConfig.addFilter("setAttr", (obj, k, v) => ({ ...obj, [k]: v }));
   eleventyConfig.addFilter("json", (v) => JSON.stringify(v, null, 2));
   eleventyConfig.addFilter("year", () => new Date().getFullYear());
 
