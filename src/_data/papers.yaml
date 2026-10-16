@@ -1,5 +1,6 @@
 # Research list. Add a paper by copying one entry. theme: mgmt | leaders | ai | public
 # status: working | published | chapter. links: journal = publisher page (DOI), free = NBER/HBS/SSRN or other free version.
+# pdf: /papers/<file>.pdf for a copy hosted on this site (file goes in src/papers/); when set, the title links to it.
 
 - title: Before the Exodus? Young Scientists and the Future of US Science
   authors: Pierre Azoulay and Daniela Scur
@@ -7,32 +8,28 @@
   year: 2026
   status: working
   theme: mgmt
-  links:
-    free: https://www.nber.org/papers/w35330
+  pdf: /papers/azoulay-sadun-scur-2026-before-the-exodus.pdf
 - title: Management and Firm Dynamism
   authors: Nicholas Bloom, Jonathan S. Hartley, Rachel Schuh and John Van Reenen
   venue: NBER Working Paper 33765
   year: 2025
   status: working
   theme: mgmt
-  links:
-    free: https://www.nber.org/papers/w33765
+  pdf: /papers/bloom-et-al-2025-management-and-firm-dynamism.pdf
 - title: CEO-Firm Matches and Productivity in 42 Countries
   authors: Amanda Dahlstrand, David Laszlo, Helena Schweiger, Oriana Bandiera and Andrea Prat
   venue: NBER Working Paper 33324
   year: 2025
   status: working
   theme: leaders
-  links:
-    free: https://www.nber.org/papers/w33324
+  pdf: /papers/dahlstrand-et-al-2025-ceo-firm-matches.pdf
 - title: The Demand for Executive Skills
   authors: Stephen Hansen, Tejas Ramdas and Joseph Fuller
   venue: NBER Working Paper 28959
   year: 2021
   status: working
   theme: leaders
-  links:
-    free: https://www.nber.org/papers/w28959
+  pdf: /papers/hansen-et-al-2021-demand-for-executive-skills.pdf
 - title: 'Re-organizing Work inside the Firm: Task Change after Technology Adoption'
   authors: Eleonora Brandimarti, Virginia Minni, Paula Neira and Jorge Tamayo
   venue: Working paper
@@ -47,24 +44,21 @@
   year: 2026
   status: working
   theme: ai
-  links:
-    free: https://www.nber.org/papers/w34633
+  pdf: /papers/delfino-et-al-2026-unwilling-to-reskill.pdf
 - title: Training within Firms
   authors: Brayan Diaz, Andrea Neyra-Nazarrett, Julian Ramirez and Jorge Tamayo
   venue: NBER Working Paper 33670
   year: 2025
   status: working
   theme: ai
-  links:
-    free: https://www.nber.org/papers/w33670
+  pdf: /papers/diaz-et-al-2025-training-within-firms.pdf
 - title: Remote Work across Jobs, Companies, and Space
   authors: Stephen Hansen, Peter John Lambert, Nicholas Bloom, Steven J. Davis and Bledi Taska
   venue: NBER Working Paper 31007
   year: 2023
   status: working
   theme: ai
-  links:
-    free: https://www.nber.org/papers/w31007
+  pdf: /papers/hansen-et-al-2023-remote-work.pdf
 - title: Variation in Management Practices and Quality of Care in U.S. Acute Care Hospitals
   authors: Laura Katsnelson, Savita Sathya, Edward Watkins, Alice Zawacki and Thomas C. Tsai
   venue: Working paper
@@ -88,7 +82,7 @@
   theme: ai
   links:
     journal: https://pubsonline.informs.org/doi/10.1287/orsc.2025.20702
-    free: https://www.nber.org/papers/w33641
+  pdf: /papers/dellacqua-et-al-2026-cybernetic-teammate.pdf
 - title: How Do Chief Executive Officers Make Strategy?
   authors: Mu-Jeung Yang, Michael Christensen, Nicholas Bloom and Jan Rivkin
   venue: Management Science 72(6)
@@ -97,15 +91,14 @@
   theme: leaders
   links:
     journal: https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03924
-    free: https://www.nber.org/papers/w27952
+  pdf: /papers/yang-et-al-2026-how-do-ceos-make-strategy.pdf
 - title: 'The Impact of CEOs in the Public Sector: Evidence from the English NHS'
   authors: Katharina Janke and Carol Propper
   venue: Management Science, forthcoming
   year: 2026
   status: published
   theme: public
-  links:
-    free: https://www.nber.org/papers/w25853
+  pdf: /papers/janke-propper-sadun-2026-ceos-public-sector-nhs.pdf
 - title: 'The Anatomy of a Hospital System Merger: The Patient Did Not Respond Well to Treatment'
   authors: Martin Gaynor, Adam Sacarny, Chad Syverson and Shruthi Venkatesh
   venue: Review of Economics and Statistics 108(1)
@@ -114,7 +107,7 @@
   theme: public
   links:
     journal: https://doi.org/10.1162/rest_a_01384
-    free: https://www.nber.org/papers/w29449
+  pdf: /papers/gaynor-et-al-2026-anatomy-hospital-merger.pdf
 - title: 'Communication within Firms: Evidence from CEO Turnovers'
   authors: Stephen Michael Impink and Andrea Prat
   venue: Management Science 71(1)
@@ -123,7 +116,7 @@
   theme: leaders
   links:
     journal: https://doi.org/10.1287/mnsc.2022.02719
-    free: https://www.nber.org/papers/w29042
+  pdf: /papers/impink-prat-sadun-2025-communication-within-firms.pdf
 - title: The International Empirics of Management
   authors: Daniela Scur, Scott Ohlmacher, John Van Reenen, Morten Bennedsen, Nicholas Bloom and coauthors
   venue: Proceedings of the National Academy of Sciences 121(45)
@@ -132,7 +125,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1073/pnas.2412205121
-    free: https://cep.lse.ac.uk/_NEW/publications/abstract.asp?index=11244
+  pdf: /papers/scur-et-al-2024-international-empirics-of-management.pdf
 - title: 'Come Together: Firm Boundaries and Delegation'
   authors: Laura Alfaro, Nicholas Bloom, Paola Conconi, Harald Fadinger, Patrick Legros, Andy Newman and John Van Reenen
   venue: Journal of the European Economic Association 22(1)
@@ -141,7 +134,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1093/jeea/jvad027
-    free: https://www.nber.org/papers/w24603
+  pdf: /papers/alfaro-et-al-2024-come-together.pdf
 - title: 'The World Management Survey at 18: Lessons and the Way Forward'
   authors: Daniela Scur, John Van Reenen, Renata Lemos and Nicholas Bloom
   venue: Oxford Review of Economic Policy 37(2)
@@ -150,7 +143,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1093/oxrep/grab009
-    free: https://www.nber.org/papers/w28524
+  pdf: /papers/scur-et-al-2021-wms-at-18.pdf
 - title: Turbulence, Firm Decentralization and Growth in Bad Times
   authors: Philippe Aghion, Nicholas Bloom, Brian Lucking and John Van Reenen
   venue: 'American Economic Journal: Applied Economics 13(1)'
@@ -159,7 +152,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1257/app.20180752
-    free: https://www.nber.org/papers/w23354
+  pdf: /papers/aghion-et-al-2021-turbulence-decentralization.pdf
 - title: How Does Working from Home during COVID-19 Affect What Managers Do? Evidence from Time-Use Studies
   authors: Thomaz Teodorovicz, Andrew Kun and Orit Shaer
   venue: Human-Computer Interaction 37(6)
@@ -168,7 +161,7 @@
   theme: leaders
   links:
     journal: https://doi.org/10.1080/07370024.2021.1987908
-    free: https://par.nsf.gov/servlets/purl/10356908
+  pdf: /papers/teodorovicz-et-al-2022-wfh-managers.pdf
 - title: The Impact of COVID-19 on Digital Communication Patterns
   authors: Evan DeFilippis, Stephen Michael Impink, Madison Singell and Jeffrey T. Polzer
   venue: Humanities and Social Sciences Communications 9
@@ -177,6 +170,7 @@
   theme: ai
   links:
     journal: https://doi.org/10.1057/s41599-022-01190-9
+  pdf: /papers/defilippis-et-al-2022-covid-digital-communication.pdf
 - title: 'Multitasking while Driving: A Time Use Study of Commuting Knowledge Workers to Assess Current and Future Uses'
   authors: Thomaz Teodorovicz, Andrew Kun and Orit Shaer
   venue: International Journal of Human-Computer Studies 162
@@ -185,7 +179,7 @@
   theme: ai
   links:
     journal: https://doi.org/10.1016/j.ijhcs.2022.102789
-    free: https://www.hbs.edu/ris/download.aspx?name=teodorovicz_kun_sadun_shaer_2022_ijhcs_ungated.pdf
+  pdf: /papers/teodorovicz-et-al-2022-multitasking-while-driving.pdf
 - title: 'Perceptions Related to Engaging in Non-Driving Activities in an Automated Vehicle while Commuting: A Text Mining Approach'
   authors: Yilun Xing, Linda Ng Boyle, John D. Lee, Orit Shaer and Andrew Kun
   venue: "Transportation Research Part F: Traffic Psychology and Behaviour 94"
@@ -194,7 +188,7 @@
   theme: ai
   links:
     journal: https://doi.org/10.1016/j.trf.2023.01.015
-    free: https://par.nsf.gov/servlets/purl/10453088
+  pdf: /papers/xing-et-al-2023-non-driving-activities.pdf
 - title: Measuring Collaboration in Modern Organizations
   authors: Stephen Michael Impink and Andrea Prat
   venue: American Economic Review Papers and Proceedings 110
@@ -203,7 +197,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1257/pandp.20201068
-    free: https://www.hbs.edu/ris/download.aspx?name=MeasuringCollaboration_May2020.pdf
+  pdf: /papers/impink-prat-sadun-2020-measuring-collaboration.pdf
 - title: Healthy Business? Managerial Education and Management in Health Care
   authors: Nicholas Bloom, Renata Lemos and John Van Reenen
   venue: Review of Economics and Statistics 102(3)
@@ -212,7 +206,7 @@
   theme: public
   links:
     journal: https://doi.org/10.1162/rest_a_00847
-    free: https://www.nber.org/papers/w23880
+  pdf: /papers/bloom-et-al-2020-healthy-business.pdf
 - title: CEO Behavior and Firm Performance
   authors: Oriana Bandiera, Stephen Hansen and Andrea Prat
   venue: Journal of Political Economy 128(4)
@@ -221,7 +215,7 @@
   theme: leaders
   links:
     journal: https://doi.org/10.1086/705331
-    free: https://www.nber.org/papers/w23248
+  pdf: /papers/bandiera-et-al-2020-ceo-behavior.pdf
 - title: 'Managing the Family Firm: Evidence from CEOs at Work'
   authors: Oriana Bandiera, Renata Lemos and Andrea Prat
   venue: Review of Financial Studies 31(5)
@@ -230,7 +224,7 @@
   theme: leaders
   links:
     journal: https://doi.org/10.1093/rfs/hhx138
-    free: https://www.nber.org/papers/w19722
+  pdf: /papers/bandiera-et-al-2018-managing-the-family-firm.pdf
 - title: International Data on Measuring Management Practices
   authors: Nicholas Bloom, Renata Lemos, Daniela Scur and John Van Reenen
   venue: American Economic Review Papers and Proceedings 106(5)
@@ -239,7 +233,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1257/aer.p20161058
-    free: https://worldmanagementsurvey.org/wp-content/images/2010/07/PrivateData-Final.pdf
+  pdf: /papers/bloom-et-al-2016-international-data-management.pdf
 - title: Hospital Board and Management Practices Are Strongly Related to Hospital Performance on Clinical Quality Metrics
   authors: Nicholas Bloom, Atul Gawande, Robert Huckman, Ashish Jha and Thomas Tsai
   venue: Health Affairs 34(8)
@@ -248,6 +242,7 @@
   theme: public
   links:
     journal: https://doi.org/10.1377/hlthaff.2014.1282
+  pdf: /papers/tsai-et-al-2015-hospital-board-management.pdf
 - title: Do Private Equity Owned Firms Have Better Management Practices?
   authors: Nicholas Bloom and John Van Reenen
   venue: American Economic Review Papers and Proceedings 105(5)
@@ -256,7 +251,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1257/aer.p20151000
-    free: https://www.hbs.edu/ris/download.aspx?name=Private_Equity_March_2015.pdf
+  pdf: /papers/bloom-sadun-van-reenen-2015-private-equity.pdf
 - title: Does Management Matter in Schools?
   authors: Nicholas Bloom, Renata Lemos and John Van Reenen
   venue: Economic Journal 125(584)
@@ -265,7 +260,7 @@
   theme: public
   links:
     journal: https://doi.org/10.1111/ecoj.12267
-    free: https://www.nber.org/papers/w20667
+  pdf: /papers/bloom-et-al-2015-management-in-schools.pdf
 - title: Matching Firms, Managers, and Incentives
   authors: Oriana Bandiera, Luigi Guiso and Andrea Prat
   venue: Journal of Labor Economics 33(3)
@@ -274,7 +269,7 @@
   theme: leaders
   links:
     journal: https://doi.org/10.1086/679672
-    free: https://www.nber.org/papers/w16691
+  pdf: /papers/bandiera-et-al-2015-matching-firms-managers.pdf
 - title: Does Planning Regulation Protect Independent Retailers?
   authors: ''
   venue: Review of Economics and Statistics 97(5)
@@ -283,7 +278,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1162/rest_a_00492
-    free: https://www.nber.org/papers/w19797
+  pdf: /papers/sadun-2015-planning-regulation-retailers.pdf
 - title: The New Empirical Economics of Management
   authors: Nicholas Bloom, Renata Lemos, Daniela Scur and John Van Reenen
   venue: Journal of the European Economic Association 12(4)
@@ -292,7 +287,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1111/jeea.12094
-    free: https://www.nber.org/papers/w20102
+  pdf: /papers/bloom-et-al-2014-new-empirical-economics-management.pdf
 - title: The Distinct Effects of Information Technology and Communication Technology on Firm Organization
   authors: Nicholas Bloom, Luis Garicano and John Van Reenen
   venue: Management Science 60(12)
@@ -301,7 +296,7 @@
   theme: ai
   links:
     journal: https://doi.org/10.1287/mnsc.2014.2013
-    free: https://www.nber.org/papers/w14975
+  pdf: /papers/bloom-et-al-2014-it-and-ct-firm-organization.pdf
 - title: The Organization of Firms Across Countries
   authors: Nicholas Bloom and John Van Reenen
   venue: Quarterly Journal of Economics 127(4)
@@ -310,7 +305,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1093/qje/qje029
-    free: https://www.nber.org/papers/w15129
+  pdf: /papers/bloom-sadun-van-reenen-2012-organization-of-firms.pdf
 - title: 'Americans Do IT Better: US Multinationals and the Productivity Miracle'
   authors: Nicholas Bloom and John Van Reenen
   venue: American Economic Review 102(1)
@@ -319,7 +314,7 @@
   theme: ai
   links:
     journal: https://doi.org/10.1257/aer.102.1.167
-    free: https://www.nber.org/papers/w13085
+  pdf: /papers/bloom-sadun-van-reenen-2012-americans-do-it-better.pdf
 - title: 'Regulation and UK Retailing Productivity: Evidence from Microdata'
   authors: Jonathan Haskel
   venue: Economica 79(315)
@@ -328,7 +323,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1111/j.1468-0335.2011.00903.x
-    free: https://www.iza.org/publications/dp/4028/regulation-and-uk-retailing-productivity-evidence-from-micro-data
+  pdf: /papers/haskel-sadun-2012-uk-retailing-productivity.pdf
 - title: Management Practices across Firms and Countries
   authors: Nicholas Bloom, Christos Genakos and John Van Reenen
   venue: Academy of Management Perspectives 26(1)
@@ -337,7 +332,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.5465/amp.2011.0077
-    free: https://www.nber.org/papers/w17850
+  pdf: /papers/bloom-et-al-2012-management-practices-firms-countries.pdf
 - title: 'Modern Management: Good for the Environment or Just Hot Air?'
   authors: Nicholas Bloom, Christos Genakos and Ralf Martin
   venue: Economic Journal 120(544)
@@ -346,7 +341,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1111/j.1468-0297.2010.02351.x
-    free: https://www.nber.org/papers/w14394
+  pdf: /papers/bloom-et-al-2010-modern-management-environment.pdf
 - title: Does Product Market Competition Lead Firms to Decentralize?
   authors: Nicholas Bloom and John Van Reenen
   venue: American Economic Review Papers and Proceedings 100(2)
@@ -355,6 +350,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1257/aer.100.2.434
+  pdf: /papers/bloom-sadun-van-reenen-2010-competition-decentralize.pdf
 - title: Recent Advances in the Empirics of Organizational Economics
   authors: Nicholas Bloom and John Van Reenen
   venue: Annual Review of Economics 2
@@ -363,7 +359,7 @@
   theme: mgmt
   links:
     journal: https://doi.org/10.1146/annurev.economics.050708.143328
-    free: https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=3556
+  pdf: /papers/bloom-sadun-van-reenen-2010-recent-advances-org-economics.pdf
 - title: Measuring and Explaining Management Practices in Italy
   authors: Nicholas Bloom and John Van Reenen
   venue: Rivista di Politica Economica

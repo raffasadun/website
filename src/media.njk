@@ -34,7 +34,7 @@ permalink: /media/
     <li class="media-row">
       <div class="media-date">{{ w.date | monthYear }}</div>
       <div>
-        <a class="media-title" href="https://scholar.google.com/scholar?q={{ ('"' + w.title + '"') | urlencode }}">{{ w.title }}</a>
+        <a class="media-title" href="{% if w.pdf %}{{ w.pdf }}{% else %}https://scholar.google.com/scholar?q={{ ('"' + w.title + '"') | urlencode }}{% endif %}">{{ w.title }}</a>
         <div class="media-outlet">{{ w.outlet }}{% if w.authors %} · with {{ w.authors }}{% endif %}{% if w.note %} · <strong>{{ w.note }}</strong>{% endif %}</div>
       </div>
     </li>
