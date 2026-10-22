@@ -2,13 +2,6 @@
 # status: working | published | chapter. links: journal = publisher page (DOI), free = NBER/HBS/SSRN or other free version.
 # pdf: /papers/<file>.pdf for a copy hosted on this site (file goes in src/papers/); when set, the title links to it.
 
-- title: The Role of Organization in Firm-Sponsored Training
-  authors: David J. Deming and Christopher T. Stanton
-  venue: NBER Working Paper 35920
-  year: 2026
-  status: working
-  theme: ai
-  pdf: /papers/deming-sadun-stanton-2026-role-of-organization-training.pdf
 - title: Before the Exodus? Young Scientists and the Future of US Science
   authors: Pierre Azoulay and Daniela Scur
   venue: NBER Working Paper 35330
@@ -73,6 +66,13 @@
   status: working
   theme: public
   links: {}
+- title: The Role of Organization in Firm-Sponsored Training
+  authors: David J. Deming and Christopher T. Stanton
+  venue: Journal of Economic Perspectives, forthcoming
+  year: 2026
+  status: published
+  theme: ai
+  pdf: /papers/deming-sadun-stanton-2026-role-of-organization-training.pdf
 - title: The New Digital Divide
   authors: Mayana Pereira, Shane Greenstein, Prasanna Tambe, Lucia Ronchi Darre, Tammy Glazer, Allen Kim, Rahul Dodhia and Juan Lavista Ferres
   venue: Nature Communications, forthcoming
