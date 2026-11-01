@@ -11,6 +11,7 @@ This site lists Raffaella Sadun's research papers, projects, media appearances a
 ## Pages
 - [Research by theme]({{ site.url }}/research/)
 - [Research by year]({{ site.url }}/research/by-year/)
+- [Other publications: practitioner articles and case studies]({{ site.url }}/publications/)
 - [Projects and data]({{ site.url }}/projects/)
 - [Media and talks]({{ site.url }}/media/)
 - [About and biography]({{ site.url }}/about/)
@@ -22,4 +23,8 @@ This site lists Raffaella Sadun's research papers, projects, media appearances a
 
 ## Writing for practitioners
 {% for w in writing %}- {{ w.title }}{% if w.authors %} (with {{ w.authors }}){% endif %}. {{ w.outlet }}, {{ w.date | monthYear }}.{% if w.pdf %} PDF: {{ site.url }}{{ w.pdf }}{% endif %}{% if w.url %} Online: {{ w.url }}{% endif %}
+{% endfor %}
+
+## Case studies (Harvard Business School)
+{% for c in cases %}- {{ c.title }}{% if c.authors %} (with {{ c.authors }}){% endif %}. {{ c.type }}{% if c.number %} {{ c.number }}{% endif %}, {{ c.date | monthYear }}.{% if c.url %} {{ c.url }}{% endif %}
 {% endfor %}

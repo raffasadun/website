@@ -10,4 +10,8 @@ eleventyExcludeFromCollections: true
 {%- for w in writing -%}
 {%- set wout = (wout.push({ title: w.title, coauthors: w.authors, outlet: w.outlet, date: w.date, pdf_url: (site.url + w.pdf if w.pdf else ""), url: (w.url or "") }), wout) -%}
 {%- endfor -%}
-{{ { author: site.name, affiliation: "Harvard Business School", website: site.url, updated: page.date.toISOString().slice(0,10), papers: out, writing: wout } | json | safe }}
+{%- set cout = [] -%}
+{%- for c in cases -%}
+{%- set cout = (cout.push({ title: c.title, coauthors: c.authors, type: c.type, number: c.number, date: c.date, url: (c.url or "") }), cout) -%}
+{%- endfor -%}
+{{ { author: site.name, affiliation: "Harvard Business School", website: site.url, updated: page.date.toISOString().slice(0,10), papers: out, writing: wout, cases: cout } | json | safe }}

@@ -1,0 +1,42 @@
+---
+layout: base.njk
+title: Other Publications
+permalink: /publications/
+---
+<h1 class="page-title">Other Publications</h1>
+<p class="lead">Articles for practitioners and policy audiences, and Harvard Business School case studies.</p>
+<ul class="chips">
+  <li><a href="#articles">Articles</a></li><li><a href="#case-studies">Case studies</a></li>
+</ul>
+
+<section class="section" id="articles">
+  <div class="section-head"><h2>Articles</h2></div>
+  <p class="section-blurb">Articles in Harvard Business Review, VoxEU and other outlets.</p>
+  <ul class="entries">
+    {% for w in writing %}
+    <li class="media-row">
+      <div class="media-date">{{ w.date | monthYear }}</div>
+      <div>
+        <a class="media-title" href="{% if w.pdf %}{{ w.pdf }}{% elif w.url %}{{ w.url }}{% else %}https://scholar.google.com/scholar?q={{ ('"' + w.title + '"') | urlencode }}{% endif %}">{{ w.title }}</a>
+        <div class="media-outlet">{{ w.outlet }}{% if w.authors %} · with {{ w.authors }}{% endif %}{% if w.note %} · <strong>{{ w.note }}</strong>{% endif %}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section" id="case-studies">
+  <div class="section-head"><h2>Case studies</h2></div>
+  <p class="section-blurb">Cases and supplements published by Harvard Business School. Links go to the Harvard Business Publishing store.</p>
+  <ul class="entries">
+    {% for c in cases %}
+    <li class="media-row">
+      <div class="media-date">{{ c.date | monthYear }}</div>
+      <div>
+        {% if c.url %}<a class="media-title" href="{{ c.url }}">{{ c.title }}</a>{% else %}<span class="media-title">{{ c.title }}</span>{% endif %}
+        <div class="media-outlet">{{ c.type }}{% if c.number %} {{ c.number }}{% endif %}{% if c.authors %} · with {{ c.authors }}{% endif %}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
